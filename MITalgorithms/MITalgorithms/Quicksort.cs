@@ -28,8 +28,6 @@ namespace MITalgorithms
             // recursively sort
             QuickSort(numbers, start, pivot - 1);
             QuickSort(numbers, pivot + 1, end);
-
-
         }
 
         private int partition(int[] numbers, int start, int end)
